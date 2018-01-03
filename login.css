@@ -1,0 +1,14 @@
+.navbar {
+    background-color: dimgray;
+    min-height:85px;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-bottom {
+    background-color: dimgray;
+    min-height:85px;
+}
