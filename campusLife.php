@@ -133,23 +133,19 @@ if (!isset($_SESSION["authenticated"])){
             </div><br/>
         </div>
 
-        <div id="myFooter" class="footer row align-items-center">
-            <div class="col-sm-1">
-                <a href="index.php">
+                <div class="footer row align-items-center">
+                    <div class="col-1">
+                        <a href="login.php">
                     <img src="Images/Home%20Logo.png" alt="home" class="homeimage">
                 </a>
-            </div>
-            <div class="col-sm-7 reportIssueLink">
-                Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
-            </div>
-            <div class="col-sm-2 copyright">
-                <a href="https://www.bcit.ca/copyright/">Copyright</a>
-            </div>
-            <div class="col-sm-2 privacy">
-                <a href="https://www.bcit.ca/privacy/">Privacy</a>
-            </div>
-
-        </div>
+                    </div>
+                    <div class="col-11 reportIssueLink">
+                        Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
+                    
+                        <a href="https://www.bcit.ca/copyright/"> &copy; Copyright</a> 
+                        <a href="https://www.bcit.ca/privacy/">Privacy Policy</a>
+                    </div>
+                </div>
 
 
 

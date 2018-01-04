@@ -32,11 +32,6 @@ a {
     color: blue;
 }
 
-.copyright, .privacy{
-    text-align: center;
-    color: white;
-}
-
 .element{
     margin: 1px;
 }
@@ -63,7 +58,8 @@ img {
     bottom: 0px;
     height: 50px;
     left: 0px;
-    right: 0px;
+    right: 15px;
+    font-size: 2vmin;
 }
 
 #myFooter {
