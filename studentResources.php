@@ -141,10 +141,21 @@ if (!isset($_SESSION["authenticated"])){
                         <div class="form-group">
                             <p class="centerText">
                                 <span class="elementTitle">Find Courses and Programs</span></p>
-                            <form>
-                                <input type="text" name="words" class="form-control" placeholder="Enter Terms">
+                            <form action=<?php echo 'https://www.bcit.ca/search/?q='.$useTerm.'&site=bcit'; ?> method="GET">
+                                <input type="text" name="q" class="form-control" placeholder="Enter Terms">
                                 <br>
                                 <button type="submit" class="btn btn-primary" value="Search">Search</button>
+                                <?php 
+                                    if (isset($_GET['searchWords'])){
+                                        $searchWords = $_GET['searchWords'];
+                                        $useTerm = 'https://www.bcit.ca/search/?q='.$searchWords.'&site=bcit';
+                                        
+                                    }
+                                
+                                
+                                ?>
+                                
+                                
                                 <!-- pass the search term to : https://www.bcit.ca/search/?q=SEARCHTERM&site=bcit
                                 -->
                             </form>
