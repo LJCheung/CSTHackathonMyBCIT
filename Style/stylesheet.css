@@ -1,5 +1,5 @@
 .TopBorder {
-    background-color: rgb(77,77,77);
+    background-color: rgb(77, 77, 77);
     color: white;
     text-align: center;
     font-size: 30pt;
@@ -7,6 +7,11 @@
     font-weight: bold;
 }
 
+iframe {
+    width: 1px;
+    min-width: 100%;
+    *width: 100%;
+}
 
 .content {
     margin-top: 50px;
@@ -19,7 +24,7 @@
 }
 
 .footer {
-    background-color: rgb(77,77,77);
+    background-color: rgb(77, 77, 77);
     position: absolute;
     bottom: 0px;
     height: 50px;
@@ -72,36 +77,37 @@ img {
     font-weight: bold;
 }
 
-.smalltext{
+.smalltext {
     font-size: 12px;
 }
 
-img.noresize1{
+img.noresize1 {
     width: 137px;
     height: 44px;
 }
 
-img.noresize2{
+img.noresize2 {
     width: 154px;
     height: 93px;
 }
 
-a.others{
-    color:blue;
+a.others {
+    color: blue;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+
 body {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #myFooter {
-  position: absolute;
-  bottom: 0;
-  height: 50px;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
 }
 
 .service {
@@ -120,9 +126,9 @@ body {
     height: 0;
     overflow: hidden;
 }
- 
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
@@ -130,6 +136,7 @@ body {
     width: 100%;
     height: 100%;
 }
+
 #announcements {
     text-align: center;
 }
@@ -138,26 +145,27 @@ body {
     text-align: center;
 }
 
-.navbg{
+.navbg {
     background-color: dimgrey;
 }
 
-.btnsq{
+.btnsq {
     width: 100px;
     height: 80px;
 }
-.redtext{
-    color:red;
+
+.redtext {
+    color: red;
 }
 
-.btnlong{
+.btnlong {
     width: 350px;
     height: 50px;
 }
 
-.homeimage{
-    height:50px;
-    width:50px;
+.homeimage {
+    height: 50px;
+    width: 50px;
 }
 
 #title {
@@ -166,12 +174,13 @@ body {
 }
 
 #link {
-    color:blue;
+    color: blue;
 }
 
 .btn-primary {
-   background-color:#428bca; 
+    background-color: #428bca;
 }
+
 .btn-success {
-    background-color:#5cb85c;
+    background-color: #5cb85c;
 }
