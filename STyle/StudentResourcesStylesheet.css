@@ -58,3 +58,28 @@ img {
 .centerText {
     text-align: center;
 }
+.footer {
+    background-color: rgb(77,77,77);
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+}
+
+#myFooter {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 50px;
+}
+.homeimage {
+    height:50px;
+    width:50px;
+}
