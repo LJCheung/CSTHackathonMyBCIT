@@ -74,9 +74,9 @@ if (!isset($_SESSION["authenticated"])){
         </div>
 
         <div class="mainContent row">
-            <div class="element col-md-4">
+            <div class="col-md-4">
                 <div class="row">
-                    <div class="col py-4">
+                    <div class="col element border py-4">
                         <p class="centerText">
                             <span class="elementTitle">BCIT Student Association</span></p>
                         BCITSA is an autonomous student-led organization working to support and bolster all BCIT students. BCITSA offers services and development programming to help our students navigate through the BCIT student experience. We are working to ensure that there is value for all BCIT students in every service we provide.
@@ -86,7 +86,7 @@ if (!isset($_SESSION["authenticated"])){
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col py-4">
+                    <div class="col element border py-4">
                         <p class="centerText">
                             <span class="elementTitle">IT Services</span>
                         </p>
@@ -106,7 +106,7 @@ if (!isset($_SESSION["authenticated"])){
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col py-4">
+                    <div class="col element border py-4">
                         <p class="centerText">
                             <span class="elementTitle">Campus Career Services</span></p>Looking for Work?
                         <br>
@@ -120,9 +120,9 @@ if (!isset($_SESSION["authenticated"])){
                     </div>
                 </div>
             </div>
-            <div class="element col-md-4">
+            <div class="col-md-4">
                 <div class="row">
-                    <div class="col py-4">
+                    <div class="col element  border py-4">
                         <p class="centerText">
                             <span class="elementTitle">BookStore</span></p>
                         <a href="http://www.bcit.ca/bookstore/">Buy Textbooks</a>
@@ -134,7 +134,7 @@ if (!isset($_SESSION["authenticated"])){
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col py-4">
+                    <div class="col element border py-4">
                         <div class="form-group">
                             <p class="centerText">
                                 <span class="elementTitle">Find Courses and Programs</span></p>
@@ -156,7 +156,7 @@ if (!isset($_SESSION["authenticated"])){
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col py-4">
+                    <div class="col element border py-4">
                         <p class="centerText">
                             <span class="elementTitle">Apprentice Orientation</span></p>
                         Good plans go a long way towards the success of any project, including your experience at BCIT. The Apprentice Orientation website is your blueprint for success. Learn about all the resources available to you including:
@@ -175,9 +175,9 @@ if (!isset($_SESSION["authenticated"])){
                 </div>
             </div>
 
-            <div class="element col-md-4">
+            <div class="col-md-4">
                 <div class="row">
-                    <div class="col py-4">
+                    <div class="col element border py-4">
                         <p class="centerText">
                             <span class="elementTitle">Campus Services for Students</span>
                         </p>
@@ -231,8 +231,8 @@ if (!isset($_SESSION["authenticated"])){
                     <div class="col-11 reportIssueLink">
                         Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
                     
-                        <a href="https://www.bcit.ca/copyright/"> &copy; Copyright</a> 
-                        <a href="https://www.bcit.ca/privacy/">Privacy Policy</a>
+                        <a style="color: white" href="https://www.bcit.ca/copyright/"> &copy; Copyright</a> 
+                        <a style="color: white" href="https://www.bcit.ca/privacy/">Privacy Policy</a>
                     </div>
                 </div>
     <!-- Optional JavaScript -->
