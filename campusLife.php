@@ -76,13 +76,13 @@ if (!isset($_SESSION["authenticated"])){
         <div class="mainContent row">
 
             <br/>
-            <div class="container">
+            <div class="container my-4">
 
                 <img class="img-fluid" src="Images/map.png" alt="map" />
 
                 <br/>
                 <div class="row justify-content-around">
-                    <div class="col-md-5  border">
+                    <div class="col-md-5  border my-4 py-4">
                         <h5><b>Recreation &amp; Athletics</b></h5>
                         <ul>
                             <li>
@@ -96,7 +96,7 @@ if (!isset($_SESSION["authenticated"])){
 
                     </div>
 
-                    <div class="col-md-5 border">
+                    <div class="col-md-5 border my-4 py-4">
                         <h5><b>International Students</b></h5>
                         <ul>
                             <li>
@@ -110,13 +110,13 @@ if (!isset($_SESSION["authenticated"])){
                     </div>
                 </div> <br/>
                 <div class="row justify-content-around">
-                    <div class="col-md-5  border">
+                    <div class="col-md-5  border my-4 py-4">
                         <h5><b>Student Innovation Challenge</b></h5>
 
                         <img src="images/sic.jpg" alt="" class="img-fluid" />
                     </div>
 
-                    <div class="col-md-5 border">
+                    <div class="col-md-5 border my-4 py-4">
                         <h5><b>Go Green</b></h5>
                         <ul>
                             <li>

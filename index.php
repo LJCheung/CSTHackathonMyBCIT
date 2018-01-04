@@ -73,7 +73,7 @@ if (!isset($_SESSION["authenticated"])){
             </div>
         </div>
 
-        <div class="row bg-null">
+        <div class="row bg-null my-4">
             <div class="col-xl-3" id="announcements">
                 <h5><b>Announcements</b></h5>
                 <div class="col-xs-12">

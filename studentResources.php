@@ -27,15 +27,15 @@ if (!isset($_SESSION["authenticated"])){
 </head>
 
 <body>
-        <div class="container-fluid">
-            <div class="TopBorder row align-items-center">
-                <div class="col-2">
-                    <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
-                </div>
-                <div class="col-10">
-                    MyBCIT
-                </div>
+    <div class="container-fluid">
+        <div class="TopBorder row align-items-center">
+            <div class="col-2">
+                <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
             </div>
+            <div class="col-10">
+                MyBCIT
+            </div>
+        </div>
         <div class="row">
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -76,20 +76,19 @@ if (!isset($_SESSION["authenticated"])){
         <div class="mainContent row">
             <div class="element col-md-4">
                 <div class="row">
-                    <div class="col">
-                        <p>
-                            <p class="centerText">
-                                <span class="elementTitle">BCIT Student Association</span>
-                            BCITSA is an autonomous student-led organization working to support and bolster all BCIT students. BCITSA offers services and development programming to help our students navigate through the BCIT student experience. We are working to ensure that there is value for all BCIT students in every service we provide.
-                            <br><br>
+                    <div class="col py-4">
+                        <p class="centerText">
+                            <span class="elementTitle">BCIT Student Association</span></p>
+                        BCITSA is an autonomous student-led organization working to support and bolster all BCIT students. BCITSA offers services and development programming to help our students navigate through the BCIT student experience. We are working to ensure that there is value for all BCIT students in every service we provide.
+                        <br><br>
                         <a href="www.bcitsa.ca"><img class="BCITSALogo" src="Images/BCITSA.png" alt="BCITSA"></a>
-                        </p>
+
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col py-4">
                         <p class="centerText">
-                            <span class="elementTitle">IT Services</span><br><br>
+                            <span class="elementTitle">IT Services</span>
                         </p>
                         <a href="http://www.bcit.ca/techhelp/">Technology Service Desk</a>
                         <br>Having a technology problem or have a question?
@@ -107,10 +106,10 @@ if (!isset($_SESSION["authenticated"])){
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col py-4">
                         <p class="centerText">
                             <span class="elementTitle">Campus Career Services</span></p>Looking for Work?
-                        <br><br>
+                        <br>
                         <a href="http://www.bcit.ca/ses/">eJobs</a>
                         <br><br> Register to receive targeted job postings by email, access BCIT's online job board to review all postings, or upload your resume for employers to see.
                         <ul>
@@ -123,39 +122,41 @@ if (!isset($_SESSION["authenticated"])){
             </div>
             <div class="element col-md-4">
                 <div class="row">
-                    <div class="col">
+                    <div class="col py-4">
                         <p class="centerText">
                             <span class="elementTitle">BookStore</span></p>
                         <a href="http://www.bcit.ca/bookstore/">Buy Textbooks</a>
-                        <br><br>
-                        <a href="https://www.bcit.ca/bookstore/hours.shtml">Check Hours</a>
                         <br>
-                        <a href="https://www.apple.com/ca_edu_5003563/shop"><img class="img img-responsive" src="Images/bookstore_apple_ad.svg"></a>
-                        <br><br>
+                        <a href="https://www.bcit.ca/bookstore/hours.shtml">Check Hours</a>
+                        <p>
+                            <br>
+                            <a href="https://www.apple.com/ca_edu_5003563/shop"><img class="img img-responsive" src="Images/bookstore_apple_ad.svg"></a></p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col py-4">
                         <div class="form-group">
                             <p class="centerText">
                                 <span class="elementTitle">Find Courses and Programs</span></p>
-                            <form action=<?php echo 'https://www.bcit.ca/search/?q='.$useTerm.'&site=bcit'; ?> method="GET">
+                            <form action=<?php echo 'https://www.bcit.ca/search/?q='.$useTerm. '&site=bcit'; ?> method="GET">
                                 <input type="text" name="q" class="form-control" placeholder="Enter Terms">
                                 <br>
-                                <button type="submit" class="btn btn-primary" value="Search">Search</button>
-                                <?php 
+                                <p class="text-center">
+                                    <button type="submit" class="btn btn-primary" value="Search">Search</button>
+                                    <?php 
                                     if (isset($_GET['searchWords'])){
                                         $searchWords = $_GET['searchWords'];
                                         $useTerm = 'https://www.bcit.ca/search/?q='.$searchWords.'&site=bcit';
                                         
                                     }
                                 ?>
+                                </p>
                             </form>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col py-4">
                         <p class="centerText">
                             <span class="elementTitle">Apprentice Orientation</span></p>
                         Good plans go a long way towards the success of any project, including your experience at BCIT. The Apprentice Orientation website is your blueprint for success. Learn about all the resources available to you including:
@@ -176,7 +177,7 @@ if (!isset($_SESSION["authenticated"])){
 
             <div class="element col-md-4">
                 <div class="row">
-                    <div class="col">
+                    <div class="col py-4">
                         <p class="centerText">
                             <span class="elementTitle">Campus Services for Students</span>
                         </p>
@@ -222,22 +223,22 @@ if (!isset($_SESSION["authenticated"])){
         </div>
     </div>
     <div id="myFooter" class="footer row align-items-center">
-            <div class="col-sm-1">
-                <a href="index.php">
+        <div class="col-sm-1">
+            <a href="index.php">
                     <img src="Images/Home%20Logo.png" alt="home" class="homeimage">
                 </a>
-            </div>
-            <div class="col-sm-7 reportIssueLink">
-                Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
-            </div>
-            <div class="col-sm-2 copyright">
-                <a href="https://www.bcit.ca/copyright/">Copyright</a>
-            </div>
-            <div class="col-sm-2 privacy">
-                <a href="https://www.bcit.ca/privacy/">Privacy</a>
-            </div>
-
         </div>
+        <div class="col-sm-7 reportIssueLink">
+            Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
+        </div>
+        <div class="col-sm-2 copyright">
+            <a href="https://www.bcit.ca/copyright/">Copyright</a>
+        </div>
+        <div class="col-sm-2 privacy">
+            <a href="https://www.bcit.ca/privacy/">Privacy</a>
+        </div>
+
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
