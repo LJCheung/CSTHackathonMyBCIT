@@ -33,7 +33,7 @@ if (!isset($_SESSION["authenticated"])){
             <div class="col-sm-2">
                 <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
             </div>
-            <div class="col-sm-10" id="title">
+            <div class="col-sm-10">
                 MyBCIT
             </div>
         </div>
@@ -146,8 +146,8 @@ if (!isset($_SESSION["authenticated"])){
 
         <div id="myFooter" class="footer row align-items-center">
             <div class="col-sm-1">
-                <a href="http://my.bcit.ca">
-                    <img src="Images/Home%20Logo.png" alt="home">
+                <a href="index.php">
+                    <img src="Images/Home%20Logo.png" alt="home" class="homeimage">
                 </a>
             </div>
             <div class="col-sm-7 reportIssueLink">
