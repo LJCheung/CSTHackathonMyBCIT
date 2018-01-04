@@ -63,13 +63,13 @@ $loginError = $_GET['message'];
                             <?php echo $loginError ?>
                         </span>
                         <br/>
-                        <p class="my-4"><small>Logging in as a registered user indicates you have read and accepted the <a href="https://www.bcit.ca/itpolicies/index.shtml">Acceptable Use and Security policies</a>.</small></p>
+                        <p class="my-4"><small>Logging in as a registered user indicates you have read and accepted the <a href="https://www.bcit.ca/itpolicies/index.shtml" id="link">Acceptable Use and Security policies</a>.</small></p>
                     </div>
                 </div>
 
                 <div class="footer row align-items-center">
                     <div class="col-sm-1">
-                        <a href="http://my.bcit.ca">
+                        <a href="login.php">
                     <img src="Images/Home%20Logo.png" alt="home">
                 </a>
                     </div>

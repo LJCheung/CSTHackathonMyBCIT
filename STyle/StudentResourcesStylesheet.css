@@ -8,16 +8,6 @@
 }
 
 .mainContent {
-    border-style: solid;
-}
-
-.footer {
-    background-color: rgb(77,77,77);
-    position: absolute;
-    bottom: -0px;
-    height: 50px;
-    left: 0px;
-    right: 0px;
 }
 
 .logo {
@@ -34,6 +24,10 @@
     text-decoration: underline;
 }
 
+.BCITSALogo{
+    width:200px;
+}
+
 a {
     color: blue;
 }
@@ -42,10 +36,6 @@ a {
     text-align: center;
 }
 
-.element {
-    border-style: solid;
-    border-width: 1px;
-}
 
 .elementTitle {
     color: blue;

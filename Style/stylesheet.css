@@ -24,10 +24,14 @@
 .footer {
     background-color: rgb(77,77,77);
     position: absolute;
-    bottom: -0px;
+    bottom: 0px;
     height: 50px;
     left: 0px;
     right: 0px;
+}
+
+.homeLogo {
+    max-width: 50px;
 }
 
 .logo {
@@ -100,6 +104,7 @@ html {
 body {
   margin-bottom: 50px;
 }
+
 #myFooter {
   position: absolute;
   bottom: 0;
@@ -155,11 +160,19 @@ body {
 }
 
 .btnlong{
-    width: 300px;
+    width: 350px;
     height: 50px;
 }
 
 .homeimage{
     height:50px;
     width:50px;
+}
+
+#title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+#link {
+    color:blue;
 }
