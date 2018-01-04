@@ -17,8 +17,6 @@ if (!isset($_SESSION["authenticated"])){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./Style/StudentResourcesStylesheet.css">
-    
-    <link rel="stylesheet" href="./Style/stylesheet.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -82,11 +80,10 @@ if (!isset($_SESSION["authenticated"])){
                     <div class="col">
                         <p>
                             <p class="centerText">
-                                <span class="elementTitle">BCIT Student Association</span></p>
+                                <span class="elementTitle">BCIT Student Association</span>
                             BCITSA is an autonomous student-led organization working to support and bolster all BCIT students. BCITSA offers services and development programming to help our students navigate through the BCIT student experience. We are working to ensure that there is value for all BCIT students in every service we provide.
-                            <br><br> BCITSA, we've got you covered.
                             <br><br>
-                            <a href="www.bcitsa.ca">www.bcitsa.ca</a>
+                        <a href="www.bcitsa.ca"><img class="BCITSALogo" src="Images/BCITSA.png" alt="BCITSA"></a>
                         </p>
                     </div>
                 </div>
