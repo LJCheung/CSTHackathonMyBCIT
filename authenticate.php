@@ -2,8 +2,15 @@
 session_start();
 extract($_POST);
 
-$info = explode("\r\n",
+if (DIRECTORY_SEPARATOR == '/') {
+    $GLOBALS['info'] = explode("\n",
     file_get_contents("credentials.config"));
+}
+
+if (DIRECTORY_SEPARATOR == '\\') {
+    $GLOBALS['info'] = explode("\r\n",
+    file_get_contents("credentials.config"));
+}
 
 foreach ($info as $entryPair) {
     $input = $studentID . ", " . $password;

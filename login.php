@@ -26,10 +26,10 @@ $loginError = $_GET['message'];
     <body>
         <div class="container-fluid">
             <div class="TopBorder row align-items-center">
-                <div class="col-sm-2">
+                <div class="col-2">
                     <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
                 </div>
-                <div class="col-sm-10" id="title">
+                <div class="col-10">
                     MyBCIT
                 </div>
             </div>
