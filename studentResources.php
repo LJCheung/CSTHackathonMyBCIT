@@ -231,10 +231,10 @@ if (!isset($_SESSION["authenticated"])){
                 Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
             </div>
             <div class="col-sm-2 copyright">
-                <a href="https://www.bcit.ca/copyright/">Copyright</a>
+                <a style="color:white" href="https://www.bcit.ca/copyright/">Copyright</a>
             </div>
             <div class="col-sm-2 privacy">
-                <a href="https://www.bcit.ca/privacy/">Privacy</a>
+                <a style="color:white" href="https://www.bcit.ca/privacy/">Privacy</a>
             </div>
 
         </div>
