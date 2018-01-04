@@ -227,16 +227,17 @@ if (!isset($_SESSION["authenticated"])){
             <a href="index.php">
                     <img src="Images/Home%20Logo.png" alt="home" class="homeimage">
                 </a>
-        </div>
-        <div class="col-sm-7 reportIssueLink">
-            Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
-        </div>
-        <div class="col-sm-2 copyright">
-            <a href="https://www.bcit.ca/copyright/">Copyright</a>
-        </div>
-        <div class="col-sm-2 privacy">
-            <a href="https://www.bcit.ca/privacy/">Privacy</a>
-        </div>
+
+            </div>
+            <div class="col-sm-7 reportIssueLink">
+                Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
+            </div>
+            <div class="col-sm-2 copyright">
+                <a style="color:white" href="https://www.bcit.ca/copyright/">Copyright</a>
+            </div>
+            <div class="col-sm-2 privacy">
+                <a style="color:white" href="https://www.bcit.ca/privacy/">Privacy</a>
+            </div>
 
     </div>
     <!-- Optional JavaScript -->

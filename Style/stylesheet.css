@@ -55,6 +55,7 @@ a {
 
 .copyright, .privacy{
     text-align: center;
+    color: white;
 }
 
 
@@ -176,4 +177,11 @@ body {
 }
 #link {
     color:blue;
+}
+
+.btn-primary {
+   background-color:#428bca; 
+}
+.btn-success {
+    background-color:#5cb85c;
 }
