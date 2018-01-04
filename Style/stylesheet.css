@@ -27,7 +27,8 @@
     bottom: 0px;
     height: 50px;
     left: 0px;
-    right: 0px;
+    right: 15px;
+    font-size: 2vmin;
 }
 
 .homeLogo {
@@ -54,6 +55,7 @@ a {
 
 .copyright, .privacy{
     text-align: center;
+    color: white;
 }
 
 
