@@ -105,7 +105,8 @@ if (!isset($_SESSION["authenticated"])){
                 </div>
 
             <div class="col-xl-3">
-                    <ul id="onlineservices">
+                <br/>
+                    <ul id="onlineservices" class="d-none d-lg-block d-md-none">
                         
                         <h5><b><a href="selfServices.html" class="others">Online Self Services</a></b></h5>
                         
@@ -116,6 +117,25 @@ if (!isset($_SESSION["authenticated"])){
                         <li class="text-left"><a href="#" class="service">Order Official Transcript</a></li>
                         <li class="text-left"><a href="#" class="service">Tax Forms - T2202A</a></li>
                     </ul>
+                
+                    <div class="row justify-content-around d-none d-md-block d-lg-none d-md-none d-lg-none">
+                         <a type="button" class="btn btn-primary col-xs-4 btnlong text-center" href="selfservicePages/selfservice.html">Online Self Services</a>
+                    </div>
+                    <br/>
+                    <div class="row justify-content-around d-none d-md-block d-lg-none d-md-none d-lg-none">
+                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/selfservice.html">Update <br/>Personal<br/> Information</a>
+                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/admission.html">myCommu<br/>nication</a>
+                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/registration.html">Check <br/>Application<br/> Statu</a>
+                    
+                    </div>
+                    <br/>
+                    <div class="row justify-content-around d-none d-md-block d-lg-none d-md-none d-lg-none">
+                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/financial.html">Check <br/>Course<br/> Schedule</a>
+                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/registration.html">Order <br/> Official<br/> Transcript</a>
+                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/financial.html">Tax Forms <br/>- T2202A</a>
+                    </div>
+                    <br/>
+                    
             </div>
 
         </div>
