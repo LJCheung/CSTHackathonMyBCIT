@@ -47,6 +47,24 @@ a {
     text-align: center;
 }
 
+
+.element {
+    border-style: solid;
+}
+
+.elementTitle {
+    color: blue;
+    font-weight: bold;
+}
+
+.blueLink {
+    color: blue;
+}
+
+img {
+    width: 100%;
+}
+
 .message {
     color: darkred;
     font-weight: bold;
@@ -119,20 +137,24 @@ body {
     text-align: center;
 }
 
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+.navbg{
+    background-color: dimgrey;
 }
- 
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
-.vresponsive-iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+.btnsq{
+    width: 100px;
+    height: 80px;
+}
+.redtext{
+    color:red;
+}
+
+.btnlong{
+    width: 300px;
+    height: 50px;
+}
+
+.homeimage{
+    height:50px;
+    width:50px;
 }

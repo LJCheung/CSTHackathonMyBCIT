@@ -1,0 +1,70 @@
+.TopBorder {
+    background-color: rgb(77,77,77);
+    color: white;
+    text-align: center;
+    font-size: 30pt;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.mainContent {
+    border-style: solid;
+}
+
+.footer {
+    background-color: rgb(77,77,77);
+    position: absolute;
+    bottom: -0px;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+}
+
+.logo {
+    width: 96px;
+    height: 86px;
+}
+
+.reportIssueLink {
+    color: white;
+    text-align: right;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a {
+    color: blue;
+}
+
+.copyright, .privacy{
+    text-align: center;
+}
+
+.element {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.elementTitle {
+    color: blue;
+    font-weight: bold;
+}
+
+.whiteLink {
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.col {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.centerText {
+    text-align: center;
+}
