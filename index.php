@@ -27,16 +27,15 @@ if (!isset($_SESSION["authenticated"])){
 </head>
 
 <body>
-    <div class="container-fluid">
-
-        <div class="TopBorder row align-items-center">
-            <div class="col-sm-2">
-                <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
+        <div class="container-fluid">
+            <div class="TopBorder row align-items-center">
+                <div class="col-2">
+                    <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
+                </div>
+                <div class="col-10">
+                    MyBCIT
+                </div>
             </div>
-            <div class="col-sm-10">
-                MyBCIT
-            </div>
-        </div>
         <div class="row">
             <div class="col">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
