@@ -182,40 +182,40 @@ if (!isset($_SESSION["authenticated"])){
                             <span class="elementTitle">Campus Services for Students</span>
                         </p>
                         <ul>
-                            <li>Aboriginal Services</li>
-                            <li>Applied Research Liaison Office</li>
-                            <li>Ask An Advisor</li>
-                            <li>AudioVisual Services</li>
-                            <li>BCIT Contacts</li>
-                            <li>BCIT ID Card</li>
-                            <li>BCIT Student Association</li>
-                            <li>BCIT Student Innovation Challenge</li>
-                            <li>Bookstore</li>
-                            <li>Campus Tours</li>
-                            <li>Counselling Services</li>
-                            <li>Disability Resource Centre (DRC)</li>
-                            <li>Distance Education</li>
-                            <li>Employment Services</li>
-                            <li>Food Services</li>
-                            <li>Harassment & Discrimination</li>
-                            <li>Health Services</li>
-                            <li>Housing</li>
-                            <li>Information Access and Privacy</li>
-                            <li>Institute Policies & Procedures</li>
-                            <li>International Education</li>
-                            <li>IT Services</li>
-                            <li>Learning and Teaching Centre</li>
-                            <li>Learning Commons</li>
-                            <li>Library</li>
-                            <li>MediaWorks</li>
-                            <li>Medical Services</li>
-                            <li>Parking</li>
-                            <li>Program Advising</li>
-                            <li>Recreation & Athletics</li>
-                            <li>Registration</li>
-                            <li>Safety & Security</li>
-                            <li>Student Financial Aid & Awards</li>
-                            <li>Student Judicial Affairs</li>
+                            <li><a href="http://www.bcit.ca/aboriginal/">Aboriginal Services</a></li>
+                            <li><a href="https://www.bcit.ca/appliedresearch/arlo/">Applied Research Liaison Office</a></li>
+                            <li><a href="http://www.bcit.ca/askanadvisor/">Ask An Advisor</a></li>
+                            <li><a href="http://www.bcit.ca/avservices/">AudioVisual Services</a></li>
+                            <li><a href="http://www.bcit.ca/contacts/">BCIT Contacts</a></li>
+                            <li><a href="http://www.bcit.ca/card/">BCIT ID Card</a></li>
+                            <li><a href="http://www.bcitsa.ca/">BCIT Student Association</a></li>
+                            <li><a href="https://www.bcit.ca/innovate/">BCIT Student Innovation Challenge</a></li>
+                            <li><a href="http://www.bcit.ca/bookstore/">Bookstore</a></li>
+                            <li><a href="http://www.bcit.ca/tours/">Campus Tours</a></li>
+                            <li><a href="http://www.bcit.ca/counselling/">Counselling Services</a></li>
+                            <li><a href="http://www.bcit.ca/drc/">Disability Resource Centre (DRC)</a></li>
+                            <li><a href="http://www.bcit.ca/distance/">Distance Education</a></li>
+                            <li><a href="http://www.bcit.ca/ses/">Employment Services</a></li>
+                            <li><a href="http://www.bcit.ca/foodservices/">Food Services</a></li>
+                            <li><a href="http://www.bcit.ca/harassment/">Harassment & Discrimination</a></li>
+                            <li><a href="http://www.bcit.ca/healthservices/">Health Services</a></li>
+                            <li><a href="http://www.bcit.ca/housing/">Housing</a></li>
+                            <li><a href="https://www.bcit.ca/iap/">Information Access and Privacy</a></li>
+                            <li><a href="http://www.bcit.ca/about/administration/policies.shtml">Institute Policies & Procedures</a></li>
+                            <li><a href="http://www.bcit.ca/international/">International Education</a></li>
+                            <li><a href="http://www.bcit.ca/its/">IT Services</a></li>
+                            <li><a href="http://www.bcit.ca/ltc/">Learning and Teaching Centre</a></li>
+                            <li><a href="http://www.bcit.ca/learningcommons/">Learning Commons</a></li>
+                            <li><a href="http://www.bcit.ca/library/">Library</a></li>
+                            <li><a href="https://www.bcit.ca/library/mediaworks.shtml">MediaWorks</a></li>
+                            <li><a href="http://www.bcit.ca/healthservices/">Medical Services</a></li>
+                            <li><a href="http://www.bcit.ca/parking/">Parking</a></li>
+                            <li><a href="http://www.bcit.ca/advising/">Program Advising</a></li>
+                            <li><a href="http://www.bcit.ca/recreation/">Recreation & Athletics</a></li>
+                            <li><a href="http://www.bcit.ca/admission/">Registration</a></li>
+                            <li><a href="http://www.bcit.ca/safetyandsecurity/">Safety & Security</a></li>
+                            <li><a href="http://www.bcit.ca/finaid/">Student Financial Aid & Awards</a></li>
+                            <li><a href="http://www.bcit.ca/judicial/">Student Judicial Affairs</a></li>
                         </ul>
                     </div>
                 </div>
