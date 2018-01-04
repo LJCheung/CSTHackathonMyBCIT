@@ -37,6 +37,9 @@ a {
     color: white;
 }
 
+.element{
+    margin: 1px;
+}
 
 .elementTitle {
     color: blue;

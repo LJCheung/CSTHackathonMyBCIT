@@ -7,9 +7,6 @@
     font-weight: bold;
 }
 
-.mainContent {
-    border-style: solid;
-}
 
 .content {
     margin-top: 50px;
@@ -60,7 +57,7 @@ a {
 
 
 .element {
-    border-style: solid;
+    margin: 1px;
 }
 
 .elementTitle {
