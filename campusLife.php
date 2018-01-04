@@ -128,16 +128,6 @@ if (!isset($_SESSION["authenticated"])){
 
                         <p class="smalltext">BCIT supports a population of over 15,000 full time staff and students. Institutions of this size face the same environmental challenges as a small city, and as those populations grow, so do the stresses on transportation, power and waste management systems.
                         </p>
-                        <ul>
-                            <li>
-                                <a href="https://commons.bcit.ca/greenroof/" class="others">
-                                    <p>Sustainability at BCIT</p>
-                                </a>
-                            </li>
-                        </ul>
-
-                        <p class="smalltext">BCIT supports a population of over 15,000 full time staff and students. Institutions of this size face the same environmental challenges as a small city, and as those populations grow, so do the stresses on transportation, power and waste management systems.
-                        </p>
                     </div>
                 </div>
             </div><br/>

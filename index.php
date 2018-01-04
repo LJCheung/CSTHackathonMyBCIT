@@ -109,29 +109,29 @@ if (!isset($_SESSION["authenticated"])){
                         
                         <h5><b><a href="selfServices.html" class="others">Online Self Services</a></b></h5>
                         
-                        <li class="text-left"><a href="sel" class="service">Update Personal Information</a></li>
-                        <li class="text-left"><a href="#" class="service">myCommunication</a></li>
-                        <li class="text-left"><a href="#" class="service">Check Application Status</a></li>
-                        <li class="text-left"><a href="#" class="service">Check Course Schedule</a></li>
-                        <li class="text-left"><a href="#" class="service">Order Official Transcript</a></li>
-                        <li class="text-left"><a href="#" class="service">Tax Forms - T2202A</a></li>
+                        <div><a href="sel" class="service">Update Personal Information</a></div>
+                        <div><a href="#" class="service">myCommunication</a></div>
+                        <div><a href="#" class="service">Check Application Status</a></div>
+                        <div><a href="#" class="service">Check Course Schedule</a></div>
+                        <div><a href="#" class="service">Order Official Transcript</a></div>
+                        <div><a href="#" class="service">Tax Forms - T2202A</a></div>
                     </ul>
                 
                     <div class="row justify-content-around d-lg-none">
-                         <a type="button" class="btn btn-primary col-xs-12 btnlong text-center" href="selfServices.html">Online Self Services</a>
+                         <a class="btn btn-primary col-xs-12 btnlong text-center" href="selfServices.html">Online Self Services</a>
                     </div>
                     <br/>
                     <div class="row justify-content-around d-lg-none">
-                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="#">Update <br/>Personal<br/> Information</a>
-                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/admission.html">myCommu<br/>nication</a>
-                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="#">Check <br/>Application<br/> Statu</a>
+                        <a class="smalltext btn btn-success col-xs-4 btnsq text-center" href="#">Update <br/>Personal<br/> Information</a>
+                        <a class="smalltext btn btn-success col-xs-4 btnsq text-center" href=""><br>My</br>Communication</a>
+                        <a class="smalltext btn btn-success col-xs-4 btnsq text-center" href="#">Check <br/>Application<br/> Status</a>
                     
                     </div>
                     <br/>
                     <div class="row justify-content-around d-lg-none">
-                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="#">Check <br/>Course<br/> Schedule</a>
-                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/registration.html">Order <br/> Official<br/> Transcript</a>
-                        <a type="button" class="btn btn-success col-xs-4 btnsq text-center" href="#">Tax Forms <br/>- T2202A</a>
+                        <a class="smalltext btn btn-success col-xs-4 btnsq text-center" href="#">Check <br/>Course<br/> Schedule</a>
+                        <a class="smalltext btn btn-success col-xs-4 btnsq text-center" href="selfservicePages/registration.html">Order <br/> Official<br/> Transcript</a>
+                        <a class="smalltext btn btn-success col-xs-4 btnsq text-center" href="#">Tax Forms <br/>- T2202A</a>
                     </div>
                     <br/>
                     
