@@ -35,7 +35,7 @@
 }
 
 a {
-    color: white;
+    color: blue;
 }
 
 .copyright, .privacy{
@@ -44,6 +44,7 @@ a {
 
 .element {
     border-style: solid;
+    border-width: 1pt
 }
 
 .elementTitle {
@@ -51,10 +52,14 @@ a {
     font-weight: bold;
 }
 
-.blueLink {
-    color: blue;
+.whiteLink {
+    color: white;
 }
 
 img {
     width: 100%;
+}
+
+.col {
+    border-style: solid;
 }
