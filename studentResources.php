@@ -17,6 +17,8 @@ if (!isset($_SESSION["authenticated"])){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./Style/StudentResourcesStylesheet.css">
+    
+    <link rel="stylesheet" href="./Style/stylesheet.css">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -151,13 +153,7 @@ if (!isset($_SESSION["authenticated"])){
                                         $useTerm = 'https://www.bcit.ca/search/?q='.$searchWords.'&site=bcit';
                                         
                                     }
-                                
-                                
                                 ?>
-                                
-                                
-                                <!-- pass the search term to : https://www.bcit.ca/search/?q=SEARCHTERM&site=bcit
-                                -->
                             </form>
                         </div>
                     </div>
@@ -183,68 +179,67 @@ if (!isset($_SESSION["authenticated"])){
             </div>
 
             <div class="element col-md-4">
-                <p class="centerText">
-                    <span class="elementTitle">Campus Services for Students</span>
-                </p>
-                <ul>
-                    <li>Aboriginal Services</li>
-                    <li>Applied Research Liaison Office</li>
-                    <li>Ask An Advisor</li>
-                    <li>AudioVisual Services</li>
-                    <li>BCIT Contacts</li>
-                    <li>BCIT ID Card</li>
-                    <li>BCIT Student Association</li>
-                    <li>BCIT Student Innovation Challenge</li>
-                    <li>Bookstore</li>
-                    <li>Campus Tours</li>
-                    <li>Counselling Services</li>
-                    <li>Disability Resource Centre (DRC)</li>
-                    <li>Distance Education</li>
-                    <li>Employment Services</li>
-                    <li>Food Services</li>
-                    <li>Harassment & Discrimination</li>
-                    <li>Health Services</li>
-                    <li>Housing</li>
-                    <li>Information Access and Privacy</li>
-                    <li>Institute Policies & Procedures</li>
-                    <li>International Education</li>
-                    <li>IT Services</li>
-                    <li>Learning and Teaching Centre</li>
-                    <li>Learning Commons</li>
-                    <li>Library</li>
-                    <li>MediaWorks</li>
-                    <li>Medical Services</li>
-                    <li>Parking</li>
-                    <li>Program Advising</li>
-                    <li>Recreation & Athletics</li>
-                    <li>Registration</li>
-                    <li>Safety & Security</li>
-                    <li>Student Financial Aid & Awards</li>
-                    <li>Student Judicial Affairs</li>
-                </ul>
+                <div class="row">
+                    <div class="col">
+                        <p class="centerText">
+                            <span class="elementTitle">Campus Services for Students</span>
+                        </p>
+                        <ul>
+                            <li>Aboriginal Services</li>
+                            <li>Applied Research Liaison Office</li>
+                            <li>Ask An Advisor</li>
+                            <li>AudioVisual Services</li>
+                            <li>BCIT Contacts</li>
+                            <li>BCIT ID Card</li>
+                            <li>BCIT Student Association</li>
+                            <li>BCIT Student Innovation Challenge</li>
+                            <li>Bookstore</li>
+                            <li>Campus Tours</li>
+                            <li>Counselling Services</li>
+                            <li>Disability Resource Centre (DRC)</li>
+                            <li>Distance Education</li>
+                            <li>Employment Services</li>
+                            <li>Food Services</li>
+                            <li>Harassment & Discrimination</li>
+                            <li>Health Services</li>
+                            <li>Housing</li>
+                            <li>Information Access and Privacy</li>
+                            <li>Institute Policies & Procedures</li>
+                            <li>International Education</li>
+                            <li>IT Services</li>
+                            <li>Learning and Teaching Centre</li>
+                            <li>Learning Commons</li>
+                            <li>Library</li>
+                            <li>MediaWorks</li>
+                            <li>Medical Services</li>
+                            <li>Parking</li>
+                            <li>Program Advising</li>
+                            <li>Recreation & Athletics</li>
+                            <li>Registration</li>
+                            <li>Safety & Security</li>
+                            <li>Student Financial Aid & Awards</li>
+                            <li>Student Judicial Affairs</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
         </div>
-        <!--
-        <div class="footer row align-items-center">
-            <div class="col-sm-1">
-                <a href="http://my.bcit.ca">
-                    <img src="Images/Home%20Logo.png" alt="home">
-                </a>
-            </div>
-            <div class="col-sm-7 reportIssueLink">
-                Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
-            </div>
-            <div class="col-sm-2 copyright">
-                <a href="https://www.bcit.ca/copyright/">Copyright</a>
-            </div>
-            <div class="col-sm-2 privacy">
-                <a href="https://www.bcit.ca/privacy/">Privacy</a>
-            </div>
-
+        
+    <div class="footer row align-items-center">
+        <div class="col-sm-1">
+            <a href="http://my.bcit.ca">
+                <img class="homeLogo" src="Images/Home%20Logo.png" alt="home">
+            </a>
         </div>
--->
-
+        <div class="col-sm-7 reportIssueLink">
+            Problems with this page? Please <a class="reportIssueLink underline" href="https://www.bcit.ca/its/web/feedback.shtml?from=https://www.bcit.ca/facilities/projectservices/policies.shtml">let us know.</a>
+        </div>
+        <div class="col-sm-2 copyright">
+            <a href="https://www.bcit.ca/copyright/">Copyright</a>
+        </div>
+        <div class="col-sm-2 privacy">
+            <a href="https://www.bcit.ca/privacy/">Privacy</a>
+        </div>
 
     </div>
     <!-- Optional JavaScript -->
