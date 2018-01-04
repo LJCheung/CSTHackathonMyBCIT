@@ -11,6 +11,11 @@
     border-style: solid;
 }
 
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .footer {
     background-color: rgb(77,77,77);
     position: absolute;
@@ -42,3 +47,7 @@ a {
     text-align: center;
 }
 
+.message {
+    color: darkred;
+    font-weight: bold;
+}
