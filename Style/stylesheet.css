@@ -42,3 +42,34 @@ a {
     text-align: center;
 }
 
+.smalltext{
+    font-size: 12px;
+}
+
+img.noresize1{
+    width: 137px;
+    height: 44px;
+}
+
+img.noresize2{
+    width: 154px;
+    height: 93px;
+}
+
+a.others{
+    color:blue;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 50px;
+}
+#myFooter {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+}
+
