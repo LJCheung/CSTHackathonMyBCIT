@@ -44,7 +44,7 @@ a {
 
 .element {
     border-style: solid;
-    border-width: 1pt
+    border-width: 1px;
 }
 
 .elementTitle {
@@ -62,4 +62,9 @@ img {
 
 .col {
     border-style: solid;
+    border-width: 1px;
+}
+
+.centerText {
+    text-align: center;
 }
