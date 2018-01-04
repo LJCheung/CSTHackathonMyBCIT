@@ -33,7 +33,7 @@ if (!isset($_SESSION["authenticated"])){
             <div class="col-sm-2">
                 <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
             </div>
-            <div class="col-sm-10">
+            <div class="col-sm-10" id="title">
                 MyBCIT
             </div>
         </div>
