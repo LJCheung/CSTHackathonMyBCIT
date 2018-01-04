@@ -69,7 +69,7 @@ $loginError = $_GET['message'];
 
                 <div class="footer row align-items-center">
                     <div class="col-sm-1">
-                        <a href="http://my.bcit.ca">
+                        <a href="login.php">
                     <img src="Images/Home%20Logo.png" alt="home">
                 </a>
                     </div>
