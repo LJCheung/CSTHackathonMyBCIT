@@ -1,3 +1,10 @@
+<?php 
+session_start(); 
+if (!isset($_SESSION["authenticated"])){
+	header("Location: login.php"); 
+    die();
+}
+?>
 <!doctype html>
 <html lang="en">
 
@@ -21,12 +28,13 @@
 
 <body>
     <div class="container-fluid">
+
         <div class="TopBorder row align-items-center">
             <div class="col-sm-2">
                 <img class="logo" src="Images/BCIT%20Logo.png" alt="logo">
             </div>
             <div class="col-sm-10">
-                MyBCIT - Student Resources
+                MyBCIT
             </div>
         </div>
         <div class="row">
@@ -39,13 +47,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="studentResources.html">Student Resources<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="studentResources.php">Student Resources</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="campusLife.html">Campus Life</a>
+                                <a class="nav-link" href="campusLife.php">Campus Life</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="">Email &amp Calendar</a>
@@ -54,7 +62,7 @@
                                 <a class="nav-link" href="">Groups</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">Logout</a>
+                                <a class="nav-link" href="logout.php">Logout</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="">Help</a>
@@ -65,6 +73,7 @@
                 </nav>
             </div>
         </div>
+
         <div class="mainContent row">
             <div class="element col-md-4">
                 <div class="row">
@@ -82,7 +91,7 @@
                 <div class="row">
                     <div class="col">
                         <p class="centerText">
-                        <span class="elementTitle">IT Services</span><br><br>
+                            <span class="elementTitle">IT Services</span><br><br>
                         </p>
                         <a href="http://www.bcit.ca/techhelp/">Technology Service Desk</a>
                         <br>Having a technology problem or have a question?
@@ -119,9 +128,9 @@
                     <div class="col">
                         <p class="centerText">
                             <span class="elementTitle">BookStore</span></p>
-                            <a href="http://www.bcit.ca/bookstore/">Buy Textbooks</a>
-                            <br><br>
-                            <a href="https://www.bcit.ca/bookstore/hours.shtml">Check Hours</a>
+                        <a href="http://www.bcit.ca/bookstore/">Buy Textbooks</a>
+                        <br><br>
+                        <a href="https://www.bcit.ca/bookstore/hours.shtml">Check Hours</a>
                         <br>
                         <a href="https://www.apple.com/ca_edu_5003563/shop"><img class="img img-responsive" src="Images/bookstore_apple_ad.svg"></a>
                         <br><br>
@@ -146,9 +155,7 @@
                     <div class="col">
                         <p class="centerText">
                             <span class="elementTitle">Apprentice Orientation</span></p>
-                        Good plans go a long way towards the success of any project, including your experience at BCIT.
-                        
-                        The Apprentice Orientation website is your blueprint for success. Learn about all the resources available to you including: 
+                        Good plans go a long way towards the success of any project, including your experience at BCIT. The Apprentice Orientation website is your blueprint for success. Learn about all the resources available to you including:
                         <ul>
                             <li>Financial Planning</li>
                             <li>Housing</li>
@@ -157,8 +164,8 @@
                             <li>Tutoring</li>
                             <li>and more!</li>
                         </ul>
-                            <p class="centerText">
-                                <a href="http://www.bcit.ca/apprenticeorientation/">Visit the Apprentice Web-Orientation</a>
+                        <p class="centerText">
+                            <a href="http://www.bcit.ca/apprenticeorientation/">Visit the Apprentice Web-Orientation</a>
                         </p>
                     </div>
                 </div>
@@ -166,7 +173,7 @@
 
             <div class="element col-md-4">
                 <p class="centerText">
-                <span class="elementTitle">Campus Services for Students</span>
+                    <span class="elementTitle">Campus Services for Students</span>
                 </p>
                 <ul>
                     <li>Aboriginal Services</li>

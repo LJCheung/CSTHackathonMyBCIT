@@ -9,8 +9,8 @@ foreach ($info as $entryPair) {
     $input = $studentID . ", " . $password;
     
     if (strcmp($input, $entryPair) == 0) {
-        //$_SESSION["authenticated"] = true;
-        header("Location: /index.php"); 
+        $_SESSION["authenticated"] = true;
+        header("Location: index.php"); 
         die();
     } else {
         $msg = "Invalid login credentials.";
@@ -19,11 +19,11 @@ foreach ($info as $entryPair) {
     }
 }
  
-/**
+
 if (!isset($_SESSION["authenticated"])) {
     $msg = "Invalid login credentials.";
     header("Location: login.php?message=$msg");
     die();
 }  
-**/
+
 ?>
