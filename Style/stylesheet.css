@@ -53,12 +53,6 @@ a {
     color: white;
 }
 
-.copyright, .privacy{
-    text-align: center;
-    color: white;
-}
-
-
 .element {
     border-style: solid;
 }
@@ -112,8 +106,6 @@ body {
   bottom: 0;
   height: 50px;
 }
-
-
 
 .service {
     color: black;
@@ -175,6 +167,7 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
 #link {
     color:blue;
 }

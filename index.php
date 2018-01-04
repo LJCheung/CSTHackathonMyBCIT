@@ -155,7 +155,7 @@ if (!isset($_SESSION["authenticated"])){
 
 
 
-    </div>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
