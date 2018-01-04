@@ -70,7 +70,7 @@ $loginError = $_GET['message'];
                 <div class="footer row align-items-center">
                     <div class="col-sm-1">
                         <a href="login.php">
-                    <img class="homeimage" src="Images/Home%20Logo.png" alt="home">
+                    <img src="Images/Home%20Logo.png" alt="home" class="homeimage">
                 </a>
                     </div>
                     <div class="col-sm-11 reportIssueLink">
