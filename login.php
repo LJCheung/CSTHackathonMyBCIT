@@ -51,7 +51,7 @@ $loginError = $_GET['message'];
                             <input type="text" name="studentID" class="form-control" id="studentID" placeholder="Student ID">
 
                             <label class="col-form-label" for="password"><strong>Password:</strong></label>
-                            <input type="text" name="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" name="password" class="form-control" id="password" placeholder="Password">
 
                             <div class="my-4">
                                 <button type="submit" class="btn btn-secondary">Submit</button>
